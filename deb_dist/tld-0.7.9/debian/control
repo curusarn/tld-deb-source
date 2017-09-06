@@ -1,0 +1,32 @@
+Source: tld
+Maintainer: Artur Barseghyan <artur.barseghyan@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.1
+
+Package: python-tld
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Extract the top level domain (TLD) from the URL given.
+ ===
+ tld
+ ===
+ Extract the top level domain (TLD) from the URL given. List of TLD names is
+ taken from `Mozilla
+ <http://mxr.mozilla.org/mozilla/source/netwerk/dns/src/effective_tld_names.dat?raw=1>`_.
+ .
+ Optionally raises exceptions on non-existing TLDs or silently fails (if
+ ``fail_silently`` argument is set to True).
+ Knows about active and inactive TLDs.
+ If only active TLDs shall be matched against, ``active_only`` argument
+ shall be set to True (default - False).
+ .
+ Prerequisites
+ =============
+ - Python 2.6, 2.7, 3.4, 3.5, 3.6 and PyPy
+ .
+ Installation
+ ============
+ Latest stable version on PyPI:
+

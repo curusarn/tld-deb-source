@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 06 Sep 2017 13:22:35 +0200
+Source: tld
+Binary: python-tld
+Architecture: source
+Version: 0.7.9-1
+Distribution: unstable
+Urgency: low
+Maintainer: Artur Barseghyan <artur.barseghyan@gmail.com>
+Changed-By: Artur Barseghyan <artur.barseghyan@gmail.com>
+Description:
+ python-tld - Extract the top level domain (TLD) from the URL given.
+Changes:
+ tld (0.7.9-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.2
+Checksums-Sha1:
+ 5ebf39ee47d4cdafb658d2278b03db0f4387af53 816 tld_0.7.9-1.dsc
+ 96f3a5e8700c8fb9e6b94db11b2d7edfb5c8fb7d 147753 tld_0.7.9.orig.tar.gz
+ a12454c57040795c457cb2ad12f8d2fe9000c494 1076 tld_0.7.9-1.debian.tar.xz
+Checksums-Sha256:
+ 7e801770691ff949d2cc593a0edad1a4839a9128dc73343ba791337e39529c88 816 tld_0.7.9-1.dsc
+ e78e31ee3d48af1c0473110f6c477c01244f2106d77186f56f027977a5b760a2 147753 tld_0.7.9.orig.tar.gz
+ a8daab2e8b21caf7f68552a43dd993de7d3e3c27bebd80d9bbf04f707166fb30 1076 tld_0.7.9-1.debian.tar.xz
+Files:
+ 5cec452a9e9647136aa47d57964b121b 816 python optional tld_0.7.9-1.dsc
+ d58b193335c4addc9c48a179d7208b0a 147753 python optional tld_0.7.9.orig.tar.gz
+ d0c132268e0162825d49be9e67932b50 1076 python optional tld_0.7.9-1.debian.tar.xz
